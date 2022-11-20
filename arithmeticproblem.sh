@@ -11,3 +11,10 @@ echo $z
 echo $x
 echo $y
 echo $w
+
+declare -a Arit
+arit[z]=$z
+arit[x]=$x
+arit[y]=$y
+arit[w]=$w
+echo "All operations Output:" ${arit[@]}
